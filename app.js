@@ -1,3 +1,11 @@
+const express = require('express')
+const app = express
+const path = require('path')
+app.use('/', function(req, res){
+    res.sendFile(path.join(__dirname + '/index.html'))
+})
+
+
 document.addEventListener('DOMContentLoaded',() => {
     const displayGrid = document.querySelector('.display-grid')
     const generateButton = document.querySelector('#generate')
