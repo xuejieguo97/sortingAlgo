@@ -1,0 +1,72 @@
+body{
+    background-color:black;
+    font-family: 'Klee One', cursive;
+    font-weight: bold;
+}
+
+.container{
+    margin-top: 10vmin;
+    margin-left: 10vmin;
+    display: flex;
+}
+
+.generate-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.btn{
+    font-size: inherit;
+    height: 6vmin;
+    width: 20vmin;
+    background-color: black;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: .2em;
+    color: #f3f3f3;;
+}
+
+.btn:hover, .btn:focus {
+    color: #6190ac;
+}
+ 
+.slider {
+    margin-top: 2vmin;
+    height: 10px;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.algorithms-container{
+    margin-left: 10vmin;
+    justify-content: center;
+    margin-right: 10vmin;
+}
+
+
+
+
+.slider:hover{
+    opacity: 1;
+}
+
+.display-grid {
+    margin-right: 5vmin;
+    margin-top: 10vmin;
+    display: flex;
+    margin-left: 5vmin;
+}
+
+  
+.block{
+    background-color: #f3f3f3;
+    transition: 0.2s all ease;
+}
+
